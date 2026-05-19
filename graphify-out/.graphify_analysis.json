@@ -1,0 +1,786 @@
+{
+  "communities": {
+    "0": [
+      "app_api_v1_inventory_py",
+      "app_api_v1_orders_py",
+      "app_models_init_py",
+      "app_models_inventory_py",
+      "app_models_media_py",
+      "app_models_time_log_py",
+      "app_models_unit_py",
+      "app_models_work_order_py",
+      "base",
+      "enum",
+      "models_inventory_movementtype",
+      "models_inventory_product",
+      "models_inventory_purchaseorder",
+      "models_inventory_purchaseorderitem",
+      "models_inventory_purchasestatus",
+      "models_inventory_stockmovement",
+      "models_media_media",
+      "models_media_mediatype",
+      "models_media_relatedtype",
+      "models_time_log_timeeventtype",
+      "models_time_log_timelog",
+      "models_unit_unitstatus",
+      "models_work_order_orderpriority",
+      "models_work_order_orderstatus",
+      "models_work_order_workorder",
+      "schemas_inventory_movementtype",
+      "schemas_inventory_purchasestatus",
+      "scripts_seed_stock_movements_py",
+      "scripts_seed_stock_movements_rationale_1",
+      "scripts_seed_stock_movements_seed_stock_movements",
+      "str",
+      "v1_inventory_create_product",
+      "v1_inventory_create_purchase_order",
+      "v1_inventory_create_stock_movement",
+      "v1_inventory_get_product",
+      "v1_inventory_get_products",
+      "v1_inventory_get_purchase_orders",
+      "v1_inventory_role",
+      "v1_inventory_update_po_status",
+      "v1_inventory_update_product",
+      "v1_orders_approve_order",
+      "v1_orders_change_order_status",
+      "v1_orders_create_order",
+      "v1_orders_delete_order",
+      "v1_orders_get_order",
+      "v1_orders_get_order_timelogs",
+      "v1_orders_get_orders",
+      "v1_orders_map_order_to_response",
+      "v1_orders_orderschedule",
+      "v1_orders_rationale_107",
+      "v1_orders_rationale_143",
+      "v1_orders_rationale_170",
+      "v1_orders_rationale_21",
+      "v1_orders_rationale_260",
+      "v1_orders_rationale_272",
+      "v1_orders_rationale_285",
+      "v1_orders_rationale_298",
+      "v1_orders_rationale_36",
+      "v1_orders_rationale_60",
+      "v1_orders_reject_order",
+      "v1_orders_schedule_order",
+      "v1_orders_update_order"
+    ],
+    "1": [
+      "app_api_v1_dashboard_py",
+      "app_schemas_auth_py",
+      "app_schemas_checklist_py",
+      "app_schemas_dashboard_py",
+      "app_schemas_inventory_py",
+      "app_schemas_work_order_py",
+      "basemodel",
+      "schemas_auth_config",
+      "schemas_auth_token",
+      "schemas_auth_tokendata",
+      "schemas_auth_usercreate",
+      "schemas_auth_userresponse",
+      "schemas_checklist_checklistcreate",
+      "schemas_checklist_checklistdetail",
+      "schemas_checklist_checklistresponse",
+      "schemas_checklist_config",
+      "schemas_checklist_mediauploadresponse",
+      "schemas_checklist_rationale_42",
+      "schemas_checklist_unitnestedschema",
+      "schemas_checklist_usernestedschema",
+      "schemas_dashboard_activityfeeditem",
+      "schemas_dashboard_checklistdetailresponse",
+      "schemas_dashboard_config",
+      "schemas_dashboard_dashboardkpis",
+      "schemas_dashboard_rationale_32",
+      "schemas_dashboard_rationale_5",
+      "schemas_dashboard_rationale_56",
+      "schemas_dashboard_technicianstats",
+      "schemas_dashboard_toptechnician",
+      "schemas_inventory_config",
+      "schemas_inventory_productbase",
+      "schemas_inventory_productcreate",
+      "schemas_inventory_productresponse",
+      "schemas_inventory_productupdate",
+      "schemas_inventory_purchaseordercreate",
+      "schemas_inventory_purchaseorderitemcreate",
+      "schemas_inventory_purchaseorderitemresponse",
+      "schemas_inventory_purchaseorderresponse",
+      "schemas_inventory_purchaseorderupdate",
+      "schemas_inventory_stockmovementcreate",
+      "schemas_inventory_stockmovementresponse",
+      "schemas_work_order_config",
+      "schemas_work_order_timelogresponse",
+      "schemas_work_order_workordercreate",
+      "schemas_work_order_workorderresponse",
+      "schemas_work_order_workorderstatuschange",
+      "schemas_work_order_workorderupdate",
+      "v1_dashboard_get_activity_feed",
+      "v1_dashboard_get_dashboard_kpis",
+      "v1_dashboard_get_technician_stats",
+      "v1_dashboard_get_today_workload",
+      "v1_dashboard_get_top_expensive_parts",
+      "v1_dashboard_get_top_parts_consumed",
+      "v1_dashboard_rationale_181",
+      "v1_dashboard_rationale_25",
+      "v1_dashboard_rationale_267",
+      "v1_dashboard_rationale_360",
+      "v1_dashboard_rationale_398",
+      "v1_dashboard_rationale_433"
+    ],
+    "2": [
+      "js_api_api",
+      "js_api_apiclient",
+      "js_api_apiclient_changeorderstatus",
+      "js_api_apiclient_cleartoken",
+      "js_api_apiclient_constructor",
+      "js_api_apiclient_createchecklist",
+      "js_api_apiclient_createorder",
+      "js_api_apiclient_createproduct",
+      "js_api_apiclient_createpurchaseorder",
+      "js_api_apiclient_createstockmovement",
+      "js_api_apiclient_createunit",
+      "js_api_apiclient_createuser",
+      "js_api_apiclient_deleteunit",
+      "js_api_apiclient_deleteuser",
+      "js_api_apiclient_getchecklists",
+      "js_api_apiclient_getdashboardactivity",
+      "js_api_apiclient_getflota360data",
+      "js_api_apiclient_getllantasexcel",
+      "js_api_apiclient_getme",
+      "js_api_apiclient_getorder",
+      "js_api_apiclient_getorders",
+      "js_api_apiclient_getordertimelogs",
+      "js_api_apiclient_getproducts",
+      "js_api_apiclient_getpurchaseorders",
+      "js_api_apiclient_getserviciosexcel",
+      "js_api_apiclient_gettechnicianstats",
+      "js_api_apiclient_gettodayworkload",
+      "js_api_apiclient_gettopexpensiveparts",
+      "js_api_apiclient_gettoppartsconsumed",
+      "js_api_apiclient_getunits",
+      "js_api_apiclient_getunittimeline",
+      "js_api_apiclient_getusers",
+      "js_api_apiclient_login",
+      "js_api_apiclient_logout",
+      "js_api_apiclient_register",
+      "js_api_apiclient_request",
+      "js_api_apiclient_scheduleorder",
+      "js_api_apiclient_setchecklistpriority",
+      "js_api_apiclient_settoken",
+      "js_api_apiclient_updateorder",
+      "js_api_apiclient_updateproduct",
+      "js_api_apiclient_updatepurchaseorderstatus",
+      "js_api_apiclient_updateunit",
+      "js_api_apiclient_uploadmedia",
+      "js_api_apiclient_uploaduseravatar",
+      "static_js_api_js"
+    ],
+    "3": [
+      "js_app_flotaapp",
+      "js_app_flotaapp_attachloginhandlers",
+      "js_app_flotaapp_attachprofilehandlers",
+      "js_app_flotaapp_changeorderstatus",
+      "js_app_flotaapp_closeauditmodal",
+      "js_app_flotaapp_closeorder",
+      "js_app_flotaapp_closeordermodal",
+      "js_app_flotaapp_constructor",
+      "js_app_flotaapp_finishwork",
+      "js_app_flotaapp_init",
+      "js_app_flotaapp_navigateto",
+      "js_app_flotaapp_pausework",
+      "js_app_flotaapp_promptassigntechnician",
+      "js_app_flotaapp_renderavailablepartslist",
+      "js_app_flotaapp_renderlogin",
+      "js_app_flotaapp_renderprofile",
+      "js_app_flotaapp_renderselectedpartslist",
+      "js_app_flotaapp_resumework",
+      "js_app_flotaapp_setupconnectivitylisteners",
+      "js_app_flotaapp_setupnavigation",
+      "js_app_flotaapp_showcreateorderform",
+      "js_app_flotaapp_showview",
+      "js_app_flotaapp_startorderwithparts",
+      "js_app_flotaapp_startwork",
+      "js_app_flotaapp_syncpendingdata",
+      "js_app_flotaapp_toggleorderdetail",
+      "js_app_flotaapp_updateonlinestatus",
+      "js_app_flotaapp_vieworderdetails",
+      "js_roles_menu_config",
+      "js_roles_rendermenuforrole",
+      "static_js_app_js",
+      "static_js_roles_js",
+      "static_js_views_ai_js",
+      "static_js_views_checklist_js",
+      "views_ai_ai_config",
+      "views_ai_animatecounter",
+      "views_ai_handlechatkeypress",
+      "views_ai_handlechatsuggestion",
+      "views_ai_initaidashboard",
+      "views_ai_renderaiview",
+      "views_ai_sendchatmessage",
+      "views_ai_startanomalyfeed",
+      "views_checklist_fillunitselect",
+      "views_checklist_loadchecklisthandlers",
+      "views_checklist_renderchecklistview",
+      "views_checklist_renderinspectionitem"
+    ],
+    "4": [
+      "api_deps_extract_token",
+      "api_deps_get_current_user",
+      "api_deps_get_db",
+      "api_deps_rationale_1",
+      "api_deps_rationale_12",
+      "api_deps_rationale_30",
+      "app_api_deps_py",
+      "app_api_v1_auth_py",
+      "app_api_v1_users_py",
+      "app_core_security_py",
+      "app_models_user_py",
+      "core_security_create_access_token",
+      "core_security_decode_access_token",
+      "core_security_get_password_hash",
+      "core_security_verify_password",
+      "models_user_user",
+      "models_user_userrole",
+      "scripts_create_planner_create_planner",
+      "scripts_create_planner_py",
+      "scripts_import_technicians_import_technicians",
+      "scripts_import_technicians_py",
+      "scripts_import_technicians_sanitize_email",
+      "scripts_reset_users_py",
+      "scripts_reset_users_reset_users",
+      "scripts_seed_manager_py",
+      "scripts_seed_manager_seed_manager",
+      "v1_auth_admin_register_user",
+      "v1_auth_login",
+      "v1_auth_logout",
+      "v1_auth_refresh_token",
+      "v1_auth_register",
+      "v1_auth_set_access_cookie",
+      "v1_users_create_user",
+      "v1_users_delete_user",
+      "v1_users_get_me",
+      "v1_users_get_technicians",
+      "v1_users_get_users"
+    ],
+    "5": [
+      "app_api_v1_units_py",
+      "app_schemas_unit_py",
+      "models_unit_unit",
+      "schemas_unit_config",
+      "schemas_unit_unitbase",
+      "schemas_unit_unitcreate",
+      "schemas_unit_unitflota360",
+      "schemas_unit_unitresponse",
+      "schemas_unit_unittimelineitem",
+      "schemas_unit_unitupdate",
+      "scripts_update_drivers_v2_py",
+      "scripts_update_drivers_v2_update_assignments",
+      "v1_units_create_unit",
+      "v1_units_delete_unit",
+      "v1_units_get_flota_360",
+      "v1_units_get_unit",
+      "v1_units_get_unit_timeline",
+      "v1_units_get_units",
+      "v1_units_role",
+      "v1_units_update_unit"
+    ],
+    "6": [
+      "api_rbac_ensure_self_or_roles",
+      "api_rbac_require_roles",
+      "app_api_rbac_py",
+      "app_api_v1_checklists_py",
+      "app_models_checklist_py",
+      "app_services_upload_validation_py",
+      "models_checklist_checklist",
+      "services_upload_validation_ensure_file_size",
+      "services_upload_validation_validate_upload",
+      "v1_checklists_can_access_checklist",
+      "v1_checklists_create_checklist",
+      "v1_checklists_get_checklist",
+      "v1_checklists_get_checklist_media",
+      "v1_checklists_get_checklists",
+      "v1_checklists_get_checklists_detailed",
+      "v1_checklists_resolve_media_url",
+      "v1_checklists_role",
+      "v1_checklists_set_checklist_priority",
+      "v1_checklists_upload_media",
+      "v1_users_upload_avatar"
+    ],
+    "7": [
+      "static_js_views_warehouse_js",
+      "views_warehouse_adjuststock",
+      "views_warehouse_changepostatus",
+      "views_warehouse_editproduct",
+      "views_warehouse_handleinventorysearch",
+      "views_warehouse_inventoryfilters",
+      "views_warehouse_loadwarehousedata",
+      "views_warehouse_opennewproductmodal",
+      "views_warehouse_opennewpurchasemodal",
+      "views_warehouse_rendercurrenttab",
+      "views_warehouse_renderinventorygrid",
+      "views_warehouse_renderpurchaseslist",
+      "views_warehouse_renderwarehouseview",
+      "views_warehouse_setinventorystatusfilter",
+      "views_warehouse_style",
+      "views_warehouse_switchwarehousetab",
+      "views_warehouse_warehousedata"
+    ],
+    "8": [
+      "js_app_flotaapp_approveorder",
+      "js_app_flotaapp_deleteorder",
+      "js_app_flotaapp_rejectorder",
+      "js_modals_approveorderaction",
+      "js_modals_closeordermodal",
+      "js_modals_deleteorderaction",
+      "js_modals_handlecreateordersubmit",
+      "js_modals_loadtechniciansfororder",
+      "js_modals_loadunitsfororder",
+      "js_modals_promptassigntechnician",
+      "js_modals_rejectorderaction",
+      "js_modals_showcreateorderform",
+      "js_modals_vieworderdetails",
+      "static_js_modals_js"
+    ],
+    "9": [
+      "js_app_flotaapp_showauditdetail",
+      "static_js_views_audit_js",
+      "views_audit_applyauditfilters",
+      "views_audit_auditdata",
+      "views_audit_closeauditmodal",
+      "views_audit_hasrelevantfailures",
+      "views_audit_loadaudithistory",
+      "views_audit_markaspriority",
+      "views_audit_renderauditview",
+      "views_audit_rendernoinspectionview",
+      "views_audit_renderprioritybutton",
+      "views_audit_schedulemaintenance",
+      "views_audit_showauditdetailmodal",
+      "views_audit_updateauditview"
+    ],
+    "10": [
+      "static_js_views_flota_js",
+      "views_flota_closeunitdetailmodal",
+      "views_flota_closeunitmodal",
+      "views_flota_confirmdeleteunit",
+      "views_flota_filter",
+      "views_flota_input",
+      "views_flota_loadflota360data",
+      "views_flota_loadunittimeline",
+      "views_flota_options",
+      "views_flota_renderflota360view",
+      "views_flota_select",
+      "views_flota_showunitdetailmodal",
+      "views_flota_showunitmodal",
+      "views_flota_submitcreateunit"
+    ],
+    "11": [
+      "static_js_views_users_js",
+      "views_users_closeusermodal",
+      "views_users_confirmdeleteuser",
+      "views_users_escapehtml",
+      "views_users_filterusers",
+      "views_users_loadusersdata",
+      "views_users_previewuseravatar",
+      "views_users_renderusersview",
+      "views_users_showcreateusermodal",
+      "views_users_showuserdetailmodal",
+      "views_users_submitcreateuser",
+      "views_users_updateusersgrid",
+      "views_users_userslist"
+    ],
+    "12": [
+      "js_db_offlinedb",
+      "js_db_offlinedb_add",
+      "js_db_offlinedb_addtosyncqueue",
+      "js_db_offlinedb_clear",
+      "js_db_offlinedb_constructor",
+      "js_db_offlinedb_delete",
+      "js_db_offlinedb_get",
+      "js_db_offlinedb_getall",
+      "js_db_offlinedb_getpendingsyncitems",
+      "js_db_offlinedb_init",
+      "js_db_offlinedb_put",
+      "static_js_db_js"
+    ],
+    "13": [
+      "app_api_v1_external_data_py",
+      "v1_external_data_clean_for_json",
+      "v1_external_data_get_llantas_excel",
+      "v1_external_data_get_servicios_excel",
+      "v1_external_data_get_tire_status",
+      "v1_external_data_parse_tire_value",
+      "v1_external_data_rationale_15",
+      "v1_external_data_rationale_198",
+      "v1_external_data_rationale_220",
+      "v1_external_data_rationale_236",
+      "v1_external_data_rationale_42"
+    ],
+    "14": [
+      "static_js_views_orders_js",
+      "views_orders_attachplannerhandlers",
+      "views_orders_attachtechnicianhandlers",
+      "views_orders_currenttechorders",
+      "views_orders_loadordersdata",
+      "views_orders_loadtechnicianstats",
+      "views_orders_renderorderbuttons",
+      "views_orders_renderordersview",
+      "views_orders_renderplannerordersview",
+      "views_orders_rendertechnicianordersview",
+      "views_orders_settechfilter"
+    ],
+    "15": [
+      "js_sync_syncmanager",
+      "js_sync_syncmanager_constructor",
+      "js_sync_syncmanager_processsyncqueue",
+      "js_sync_syncmanager_retrywithbackoff",
+      "js_sync_syncmanager_syncchecklist",
+      "js_sync_syncmanager_syncitem",
+      "js_sync_syncmanager_syncorderstatus",
+      "js_sync_syncmanager_syncunit",
+      "js_sync_syncmanager_uploadmediablob",
+      "static_js_sync_js"
+    ],
+    "16": [
+      "static_manifest_background_color",
+      "static_manifest_description",
+      "static_manifest_display",
+      "static_manifest_icons",
+      "static_manifest_json",
+      "static_manifest_name",
+      "static_manifest_orientation",
+      "static_manifest_short_name",
+      "static_manifest_start_url",
+      "static_manifest_theme_color"
+    ],
+    "17": [
+      "static_js_views_tires_js",
+      "views_tires_filterbycuenta",
+      "views_tires_loadtiresdata",
+      "views_tires_rendertirebox",
+      "views_tires_rendertiresview",
+      "views_tires_rendertiresvisualmap",
+      "views_tires_rendertop10critical",
+      "views_tires_renderunittirecard",
+      "views_tires_tiresstate",
+      "views_tires_updateelement"
+    ],
+    "18": [
+      "scripts_migrate_sqlite_to_postgres_build_insert_or_upsert_sql",
+      "scripts_migrate_sqlite_to_postgres_clear_target_data",
+      "scripts_migrate_sqlite_to_postgres_count_rows",
+      "scripts_migrate_sqlite_to_postgres_existing_tables",
+      "scripts_migrate_sqlite_to_postgres_main",
+      "scripts_migrate_sqlite_to_postgres_migrate_table",
+      "scripts_migrate_sqlite_to_postgres_migrate_users_and_units",
+      "scripts_migrate_sqlite_to_postgres_py",
+      "scripts_migrate_sqlite_to_postgres_reset_sequences"
+    ],
+    "19": [
+      "static_js_views_dashboard_js",
+      "views_dashboard_loaddashboardkpis",
+      "views_dashboard_loadexternaldata",
+      "views_dashboard_loadliveactivity",
+      "views_dashboard_loadtodayworkload",
+      "views_dashboard_loadtopexpensiveparts",
+      "views_dashboard_loadtoppartsconsumed",
+      "views_dashboard_renderdashboardwithkpis",
+      "views_dashboard_showordermodalfromdashboard"
+    ],
+    "20": [
+      "js_compressor_mediacompressor",
+      "js_compressor_mediacompressor_compressimage",
+      "js_compressor_mediacompressor_constructor",
+      "js_compressor_mediacompressor_createvideothumbnail",
+      "js_compressor_mediacompressor_processvideo",
+      "static_js_compressor_js"
+    ],
+    "21": [
+      "flota_mantenimiento_pwa_main_add_security_headers",
+      "flota_mantenimiento_pwa_main_health_live",
+      "flota_mantenimiento_pwa_main_health_ready",
+      "flota_mantenimiento_pwa_main_read_root",
+      "flota_mantenimiento_pwa_main_startup_event",
+      "main_py"
+    ],
+    "22": [
+      "alembic_versions_9a6b4f1d2c3e_sync_schema_with_current_models_py",
+      "versions_9a6b4f1d2c3e_sync_schema_with_current_models_downgrade",
+      "versions_9a6b4f1d2c3e_sync_schema_with_current_models_has_column",
+      "versions_9a6b4f1d2c3e_sync_schema_with_current_models_has_fk",
+      "versions_9a6b4f1d2c3e_sync_schema_with_current_models_has_table",
+      "versions_9a6b4f1d2c3e_sync_schema_with_current_models_upgrade"
+    ],
+    "23": [
+      "alembic_env_py",
+      "alembic_env_rationale_41",
+      "alembic_env_rationale_65",
+      "alembic_env_run_migrations_offline",
+      "alembic_env_run_migrations_online"
+    ],
+    "24": [
+      "app_services_storage_py",
+      "services_storage_storageservice",
+      "services_storage_storageservice_get_url",
+      "services_storage_storageservice_init",
+      "services_storage_storageservice_save_bytes"
+    ],
+    "25": [
+      "tests_conftest_client",
+      "tests_conftest_db",
+      "tests_conftest_db_engine",
+      "tests_conftest_override_dependency",
+      "tests_conftest_py"
+    ],
+    "26": [
+      "api_test_units_auth_header",
+      "api_test_units_test_create_and_get_unit",
+      "api_test_units_test_create_duplicate_unit",
+      "tests_api_test_units_py"
+    ],
+    "27": [
+      "app_core_config_py",
+      "basesettings",
+      "core_config_config",
+      "core_config_settings"
+    ],
+    "28": [
+      "api_test_auth_test_login_invalid_user",
+      "api_test_auth_test_login_user",
+      "api_test_auth_test_register_user",
+      "tests_api_test_auth_py"
+    ],
+    "29": [
+      "alembic_versions_a2f6c8d91b44_add_reason_to_time_logs_py",
+      "versions_a2f6c8d91b44_add_reason_to_time_logs_downgrade",
+      "versions_a2f6c8d91b44_add_reason_to_time_logs_has_column",
+      "versions_a2f6c8d91b44_add_reason_to_time_logs_upgrade"
+    ],
+    "30": [
+      "alembic_versions_286816913fcb_add_chofer_role_to_userrole_enum_py",
+      "versions_286816913fcb_add_chofer_role_to_userrole_enum_downgrade",
+      "versions_286816913fcb_add_chofer_role_to_userrole_enum_upgrade"
+    ],
+    "31": [
+      "alembic_versions_33be22dd2c35_add_work_orders_checklists_media_py",
+      "versions_33be22dd2c35_add_work_orders_checklists_media_downgrade",
+      "versions_33be22dd2c35_add_work_orders_checklists_media_upgrade"
+    ],
+    "32": [
+      "alembic_versions_6b8582cb8ac0_initial_tables_py",
+      "versions_6b8582cb8ac0_initial_tables_downgrade",
+      "versions_6b8582cb8ac0_initial_tables_upgrade"
+    ],
+    "33": [
+      "alembic_versions_d45db65faf26_add_rejected_status_to_workorder_py",
+      "versions_d45db65faf26_add_rejected_status_to_workorder_downgrade",
+      "versions_d45db65faf26_add_rejected_status_to_workorder_upgrade"
+    ],
+    "34": [
+      "api_test_orders_auth_header",
+      "api_test_orders_test_create_order",
+      "tests_api_test_orders_py"
+    ],
+    "35": [
+      "api_test_smoke_test_health_check",
+      "api_test_smoke_test_read_root",
+      "tests_api_test_smoke_py"
+    ],
+    "36": [
+      "scripts_migrate_checklist_comments_migrate",
+      "scripts_migrate_checklist_comments_py",
+      "scripts_migrate_checklist_comments_rationale_1"
+    ],
+    "37": [
+      "scripts_migrate_estimated_hours_migrate",
+      "scripts_migrate_estimated_hours_py",
+      "scripts_migrate_estimated_hours_rationale_1"
+    ],
+    "38": [
+      "app_utils_cleanup_py",
+      "utils_cleanup_cleanup_old_media",
+      "utils_cleanup_rationale_16"
+    ],
+    "39": [
+      "scripts_create_test_data_py",
+      "scripts_create_test_data_rationale_1"
+    ],
+    "40": [
+      "scripts_create_test_orders_py",
+      "scripts_create_test_orders_rationale_1"
+    ],
+    "41": [
+      "scripts_list_users_py",
+      "scripts_list_users_rationale_1"
+    ],
+    "42": [
+      "scripts_migrate_add_unit_id_migrate",
+      "scripts_migrate_add_unit_id_py"
+    ],
+    "43": [
+      "scripts_migrate_schedule_add_column",
+      "scripts_migrate_schedule_py"
+    ],
+    "44": [
+      "scripts_migrate_schema_update_migrate_db",
+      "scripts_migrate_schema_update_py"
+    ],
+    "45": [
+      "scripts_migrate_timelog_reason_add_column",
+      "scripts_migrate_timelog_reason_py"
+    ],
+    "46": [
+      "scripts_migrate_units_driver_migrate",
+      "scripts_migrate_units_driver_py"
+    ],
+    "47": [
+      "scripts_migrate_users_image_migrate",
+      "scripts_migrate_users_image_py"
+    ],
+    "48": [
+      "scripts_seed_all_roles_py",
+      "scripts_seed_all_roles_rationale_1"
+    ],
+    "49": [
+      "static_sw_js",
+      "static_sw_urlstocache"
+    ],
+    "50": [
+      "app_init_py"
+    ],
+    "51": [
+      "app_api_init_py"
+    ],
+    "52": [
+      "app_api_v1_init_py"
+    ],
+    "53": [
+      "app_core_init_py"
+    ],
+    "54": [
+      "app_db_base_py"
+    ],
+    "55": [
+      "app_db_session_py"
+    ],
+    "56": [
+      "app_db_init_py"
+    ],
+    "57": [
+      "app_schemas_init_py"
+    ],
+    "58": [
+      "app_services_init_py"
+    ],
+    "59": [
+      "scripts_test_mapping_py"
+    ]
+  },
+  "cohesion": {},
+  "god_nodes": [
+    {
+      "id": "js_api_apiclient",
+      "label": "APIClient",
+      "degree": 44
+    },
+    {
+      "id": "js_app_flotaapp",
+      "label": "FlotaApp",
+      "degree": 32
+    },
+    {
+      "id": "js_db_offlinedb",
+      "label": "OfflineDB",
+      "degree": 11
+    },
+    {
+      "id": "v1_orders_orderschedule",
+      "label": "OrderSchedule",
+      "degree": 10
+    },
+    {
+      "id": "models_user_user",
+      "label": "User",
+      "degree": 10
+    },
+    {
+      "id": "js_sync_syncmanager",
+      "label": "SyncManager",
+      "degree": 9
+    },
+    {
+      "id": "v1_orders_map_order_to_response",
+      "label": "map_order_to_response()",
+      "degree": 8
+    },
+    {
+      "id": "v1_units_role",
+      "label": "_role()",
+      "degree": 8
+    },
+    {
+      "id": "core_security_get_password_hash",
+      "label": "get_password_hash()",
+      "degree": 8
+    },
+    {
+      "id": "models_inventory_stockmovement",
+      "label": "StockMovement",
+      "degree": 8
+    }
+  ],
+  "surprises": [
+    {
+      "source": "create_planner()",
+      "target": "get_password_hash()",
+      "source_files": [
+        "scripts/create_planner.py",
+        "app/core/security.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
+    },
+    {
+      "source": "import_technicians()",
+      "target": "get_password_hash()",
+      "source_files": [
+        "scripts/import_technicians.py",
+        "app/core/security.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
+    },
+    {
+      "source": "reset_users()",
+      "target": "get_password_hash()",
+      "source_files": [
+        "scripts/reset_users.py",
+        "app/core/security.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
+    },
+    {
+      "source": "seed_manager()",
+      "target": "get_password_hash()",
+      "source_files": [
+        "scripts/seed_manager.py",
+        "app/core/security.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
+    },
+    {
+      "source": "seed_stock_movements()",
+      "target": "Product",
+      "source_files": [
+        "scripts/seed_stock_movements.py",
+        "app/models/inventory.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
+    }
+  ]
+}

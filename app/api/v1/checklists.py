@@ -34,7 +34,8 @@ def _can_access_checklist(checklist: Checklist, current_user: User, db: Session)
 
 def _resolve_media_url(path_or_key: str) -> str:
     if path_or_key.startswith("uploads/"):
-        return f"/{path_or_key.replace('\\', '/')}"
+        normalized_path = path_or_key.replace("\\", "/")
+        return f"/{normalized_path}"
     if path_or_key.startswith("/uploads/"):
         return path_or_key.replace("\\", "/")
     return storage_service.get_url(path_or_key)
